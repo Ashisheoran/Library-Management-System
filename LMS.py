@@ -68,14 +68,6 @@ class Library:
         for item in self.item:
             return item
         
-
-class Library:
-    def __init__(self):
-        self.item = []
-    def display_item(self):
-        for item in self.item:
-            return item
-
 class ManageItem:
     def add_item(self,lib:Library,item:LibraryItem):
         if item is None:
